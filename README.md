@@ -28,6 +28,7 @@ Most "awesome" lists are link dumps. This one is a **curated research document**
 - [Local-First / File-Based](#local-first--file-based)
 - [Object & Structure-Based](#object--structure-based)
 - [Visual & Spatial Thinking](#visual--spatial-thinking)
+- [Open-Source AI Research Assistants](#open-source-ai-research-assistants)
 - [Learning & Memorization](#learning--memorization)
 - [Open Source PKM](#open-source-pkm)
 - [Methodology & Further Reading](#methodology--further-reading)
@@ -47,8 +48,21 @@ Most "awesome" lists are link dumps. This one is a **curated research document**
 | Open source with no compromises | [Logseq](#logseq), [SiYuan](#siyuan) |
 | Academic research & thesis writing | [NoteRich](#noterich), [Zettlr](#zettlr), [Heptabase](#heptabase) |
 | Budget-friendly (free) | [Logseq](#logseq), [AnyType](#anytype), [SiYuan](#siyuan), [Foam](#foam) |
+| AI research paper Q&A | [PaperQA2](#paperqa2), [STORM](#storm), [RAGFlow](#ragflow) |
+| Chat with your documents privately (open source) | [AnythingLLM](#anythingllm), [PrivateGPT](#privategpt), [Kotaemon](#kotaemon) |
 | Combine tasks with notes | [Amplenote](#amplenote) |
 | Visual creative brainstorming | [Milanote](#milanote), [Heptabase](#heptabase) |
+| [AnythingLLM](#anythingllm) | AI Doc Chat | ✅ RAG | ✅ | ✅ MIT | ✅ | Free |
+| [PrivateGPT](#privategpt) | AI Doc Q&A | ✅ Local LLM | ✅ | ✅ Apache | ✅ | Free |
+| [DocsGPT](#docsgpt) | Doc Assistant | ✅ OpenAI | ✅ | ✅ MIT | ✅ | Free |
+| [Quivr](#quivr) | Second Brain AI | ✅ Multi | ✅ | ✅ Apache | ✅ | Free |
+| [Kotaemon](#kotaemon) | RAG Doc QA | ✅ Local | ✅ | ✅ Apache | ✅ | Free |
+| [Danswer](#danswer) | Enterprise Q&A | ✅ Multi | ✅ | ✅ MIT | ✅ | Free |
+| [RAGFlow](#ragflow) | RAG Engine | ✅ Deep | ✅ | ✅ Apache | ✅ | Free |
+| [PaperQA2](#paperqa2) | Academic QA | ✅ Agent | ✅ | ✅ Apache | ✅ | Free |
+| [STORM](#storm) | Research Gen | ✅ LLM | ✅ | ✅ MIT | ✅ | Free |
+| [GPT Researcher](#gpt-researcher) | Auto Research | ✅ Agent | ✅ | ✅ MIT | ✅ | Free |
+
 | Replace Notion with open source | [AppFlowy](#appflowy), [AFFiNE](#affine), [AnyType](#anytype) |
 | Build a self-hosted knowledge base | [Trilium](#trilium-notes), [AFFiNE](#affine) |
 
@@ -480,6 +494,243 @@ A hierarchical note-taking tool built on top of VSCode. Uses flexible hierarchie
 | [Milanote](#milanote) | Visual Board | ❌ | ❌ | ❌ | Limited | $12.50/mo |
 
 ---
+---
+
+## Open-Source AI Research Assistants
+
+The open-source answer to NotebookLM — chat with your documents, ask questions, get AI-powered answers. All run locally or self-hosted.
+
+### AnythingLLM
+
+**Website:** [anythingllm.com](https://anythingllm.com)  
+**Repository:** [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)  
+**Paradigm:** Universal Document Chat  
+**Pricing:** Free (MIT, open source) / Cloud from $25/mo  
+**Languages:** English, multi-language UI
+
+The most popular open-source document chat tool. Upload PDFs, Word docs, code, audio, videos, websites — then chat with them. Supports any LLM (OpenAI, Anthropic, local via Ollama, LMStudio). Full RAG pipeline with embedding, vector search, and citation.
+
+**Strengths:**
+- Universal document ingestion (50+ formats)
+- Works with any LLM — cloud or local
+- Built-in vector database (LanceDB)
+- Multi-user with permissions
+- Custom AI agents
+- Desktop app (Mac/Windows/Linux)
+- Active development, 30K+ GitHub stars
+
+**Best for:** Users who want a polished, works-with-everything document chat.  
+**Not for:** Users who need academic paper-specific features, enterprise SSO out of the box.
+
+---
+
+### PrivateGPT
+
+**Website:** [privategpt.io](https://privategpt.io)  
+**Repository:** [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt)  
+**Paradigm:** Private Document Q&A  
+**Pricing:** Free (Apache 2.0)  
+**Languages:** English, Spanish, French, German, and more
+
+Production-ready, fully local document question-answering. All processing happens on your machine — no data leaves. Uses local embeddings and local LLMs. API-first design for integration.
+
+**Strengths:**
+- 100% local — no API calls, no data leaks
+- Production-grade architecture
+- REST API for integration
+- Supports 50+ document formats
+- Ingestion pipeline with chunking and embedding
+- Active community
+
+**Best for:** Privacy-critical environments, enterprise local deployment, regulated industries.  
+**Not for:** Users who want cloud convenience, quick web-based setup.
+
+---
+
+### DocsGPT
+
+**Website:** [docsgpt.co](https://docsgpt.co)  
+**Repository:** [arc53/DocsGPT](https://github.com/arc53/DocsGPT)  
+**Paradigm:** Documentation Assistant  
+**Pricing:** Free (MIT)  
+**Languages:** English
+
+Open-source assistant purpose-built for technical documentation. Train on your docs, then users ask questions and get sourced answers. Designed for developer documentation portals.
+
+**Strengths:**
+- Purpose-built for documentation Q&A
+- Source citations in answers
+- Integrates with existing doc sites
+- Docker deployment
+- Chat history and feedback
+
+**Best for:** Open source projects needing doc AI, developer portals, API documentation sites.  
+**Not for:** General-purpose personal knowledge management, academic research.
+
+---
+
+### Quivr
+
+**Website:** [quivr.app](https://quivr.app)  
+**Repository:** [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr)  
+**Paradigm:** Second Brain AI  
+**Pricing:** Free (Apache 2.0) / Cloud available  
+**Languages:** English, French, Spanish
+
+Upload anything — PDFs, code, websites, videos, audio — and build a personal AI knowledge base. ChatGPT-like interface that references your content. Multi-LLM support.
+
+**Strengths:**
+- Clean ChatGPT-like interface
+- Upload any content, get AI answers
+- Multi-LLM (OpenAI, Anthropic, Mistral, local)
+- Knowledge base organization
+- API for custom integrations
+- 35K+ GitHub stars
+
+**Best for:** Users wanting a personal AI knowledge base with a polished interface.  
+**Not for:** Enterprise deployment, academic paper-specific workflows.
+
+---
+
+### Kotaemon
+
+**Website:** [cinnamon.github.io/kotaemon](https://cinnamon.github.io/kotaemon)  
+**Repository:** [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon)  
+**Paradigm:** RAG Document QA  
+**Pricing:** Free (Apache 2.0)  
+**Languages:** English, multi-language documents
+
+An open-source, clean RAG-based tool for chatting with documents. Multi-user web interface. Supports local LLMs via Ollama, vLLM, and cloud APIs. Built-in PDF viewer with citation highlighting.
+
+**Strengths:**
+- Clean, Gradio-based web UI
+- Multi-user support
+- PDF viewer with citation highlight
+- Local and cloud LLM support
+- GraphRAG for complex reasoning
+- Multi-modal (images in documents)
+
+**Best for:** Teams wanting a self-hosted document QA tool, RAG experimentation.  
+**Not for:** Users wanting mobile apps, non-technical setup.
+
+---
+
+### Danswer
+
+**Website:** [danswer.ai](https://danswer.ai)  
+**Repository:** [danswer-ai/danswer](https://github.com/danswer-ai/danswer)  
+**Paradigm:** Enterprise Knowledge Q&A  
+**Pricing:** Free (MIT) / Cloud available  
+**Languages:** English
+
+Unified search + AI Q&A across all your work tools. Connectors for Slack, GitHub, Google Drive, Confluence, Notion, and 25+ more. Ask questions in natural language and get answers backed by your organization's knowledge.
+
+**Strengths:**
+- 25+ native connectors (Slack, GitHub, Drive, Notion, etc.)
+- Hybrid search (keyword + semantic)
+- AI answers with source citations
+- Role-based access control
+- Analytics dashboard
+- Self-hosted or cloud
+
+**Best for:** Organizations wanting AI Q&A over internal knowledge, enterprise search.  
+**Not for:** Individual PKM, small personal knowledge bases.
+
+---
+
+### RAGFlow
+
+**Website:** [ragflow.io](https://ragflow.io)  
+**Repository:** [infiniflow/ragflow](https://github.com/infiniflow/ragflow)  
+**Paradigm:** Deep Document RAG Engine  
+**Pricing:** Free (Apache 2.0)  
+**Languages:** English, Chinese
+
+An open-source RAG engine built on deep document understanding. Extracts knowledge from complex documents — tables, charts, layouts — not just text. Enterprise-grade document parsing pipeline.
+
+**Strengths:**
+- Deep document parsing (tables, charts, layouts)
+- Intelligent chunking strategies
+- Multi-model support (LLM + embedding)
+- Enterprise RBAC
+- Visual pipeline editor
+- 25K+ GitHub stars
+
+**Best for:** Organizations processing complex documents, enterprise RAG pipelines.  
+**Not for:** Simple personal note Q&A, quick setup.
+
+---
+
+### PaperQA2
+
+**Website:** [paperqa2.ai](https://paperqa2.ai)  
+**Repository:** [Future-House/paper-qa](https://github.com/Future-House/paper-qa)  
+**Paradigm:** Scientific Paper Q&A  
+**Pricing:** Free (Apache 2.0)  
+**Languages:** English
+
+High-accuracy RAG specifically for scientific documents. Dynamically retrieves full-text papers, iterates on answers. Published at ICLR. Built by FutureHouse (biotech AI lab).
+
+**Strengths:**
+- Scientific paper-optimized RAG
+- Dynamically retrieves full papers (not just chunks)
+- Iterative answer refinement
+- Citation-grounded responses
+- Published at top AI conferences
+- Agent-based research workflow
+
+**Best for:** Scientists, researchers, academic literature review, evidence-based Q&A.  
+**Not for:** General documents, non-academic content, quick personal notes.
+
+---
+
+### STORM
+
+**Website:** [storm.genie.stanford.edu](https://storm.genie.stanford.edu)  
+**Repository:** [stanford-oval/storm](https://github.com/stanford-oval/storm)  
+**Paradigm:** Knowledge Curation System  
+**Pricing:** Free (MIT)  
+**Languages:** English
+
+Stanford's LLM-powered system that generates Wikipedia-like articles from scratch. Researches a topic by searching the web, synthesizing information, and producing a structured, cited article. Co-STORM adds collaborative features.
+
+**Strengths:**
+- Generates full research articles with citations
+- Multi-step research: question generation → search → synthesis
+- Co-STORM for collaborative knowledge building
+- Stanford OVAL research project
+- Web interface and API
+
+**Best for:** Researchers exploring new topics, educators creating learning materials, knowledge synthesis.  
+**Not for:** Personal note-taking, real-time Q&A, document upload.
+
+---
+
+### GPT Researcher
+
+**Website:** [gptr.dev](https://gptr.dev)  
+**Repository:** [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher)  
+**Paradigm:** Autonomous Research Agent  
+**Pricing:** Free (MIT)  
+**Languages:** English, multi-language
+
+An autonomous agent for deep web and local research. Generates 5-6 page factual reports with citations in PDF, Docx, or Markdown. Multi-agent architecture for parallel research.
+
+**Strengths:**
+- Autonomous research report generation
+- Multi-agent parallel research
+- Web + local document search
+- Export to PDF/Docx/Markdown
+- Customizable research depth and breadth
+- 15K+ GitHub stars
+
+**Best for:** In-depth research on any topic, market research, competitive analysis.  
+**Not for:** Quick document Q&A, personal note-taking, team collaboration.
+
+---
+
+## Team Knowledge Bases
+
 
 ## Team Knowledge Bases
 
