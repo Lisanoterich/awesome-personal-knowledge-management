@@ -63,6 +63,11 @@ Most "awesome" lists are link dumps. This one is a **curated research document**
 | [STORM](#storm) | Research Gen | ✅ LLM | ✅ | ✅ MIT | ✅ | Free |
 | [GPT Researcher](#gpt-researcher) | Auto Research | ✅ Agent | ✅ | ✅ MIT | ✅ | Free |
 
+| [TiddlyWiki](#tiddlywiki) | Personal Wiki | ❌ | ✅ | ✅ BSD | ✅ | Free |
+| [Bear](#bear) | Apple Notes | ❌ | ✅ | ❌ | ✅ | $2.99/mo |
+| [Craft](#craft) | Beautiful Docs | ✅ AI | ✅ | ❌ | ✅ | $10/mo |
+| [Standard Notes](#standard-notes) | Encrypted Notes | ❌ | ✅ | ✅ AGPL | ✅ | $7.50/mo |
+| [Joplin](#joplin) | Note + To-Do | ❌ | ✅ | ✅ AGPL | ✅ | Cloud $2.99/mo |
 | Replace Notion with open source | [AppFlowy](#appflowy), [AFFiNE](#affine), [AnyType](#anytype) |
 | Build a self-hosted knowledge base | [Trilium](#trilium-notes), [AFFiNE](#affine) |
 
@@ -889,6 +894,117 @@ An ambitious open-source project combining documents and infinite canvas — thi
 **Not for:** Production-critical work, users who need stability, mobile-first users.
 
 ---
+
+
+
+### Joplin
+
+**Website:** [joplinapp.org](https://joplinapp.org)  
+**Paradigm:** Open-Source Note + To-Do  
+**Pricing:** Free (AGPL-3.0) / Cloud $2.99/mo  
+**Languages:** 30+
+
+One of the most popular open-source note apps with 50K+ GitHub stars. Markdown editor with rich text support. E2E encryption. Self-host or use Joplin Cloud for sync. Web clipper, mobile apps, and plugin system.
+
+**Strengths:**
+- Fully open source with massive community
+- E2E encryption (opt-in)
+- Self-hosted sync or Joplin Cloud
+- Web clipper for research
+- Mobile apps with offline support
+- Plugin ecosystem
+- Import from Evernote
+
+**Best for:** Open source advocates, privacy-conscious users, cross-platform needs.  
+**Not for:** AI-first features, visual canvas, real-time collaboration.
+
+---
+
+### Standard Notes
+
+**Website:** [standardnotes.com](https://standardnotes.com)  
+**Paradigm:** Encrypted Notes  
+**Pricing:** Free / Productivity $7.50/mo / Professional $12/mo  
+**Languages:** 30+
+
+Privacy-first, encrypted note app. E2E encryption by default. Extensions for Markdown, spreadsheets, to-dos, and themes. Longevity-focused — designed to be used for decades.
+
+**Strengths:**
+- E2E encryption by default
+- Longevity-first philosophy
+- Extensions ecosystem (editors, themes)
+- Cross-platform (Web, Mac, Windows, Linux, iOS, Android)
+- Offline access
+- Open source (AGPL-3.0)
+
+**Best for:** Security-critical work, journalists, users who need encrypted longevity.  
+**Not for:** AI features, visual mapping, database-style organization.
+
+---
+
+### Craft
+
+**Website:** [craft.do](https://craft.do)  
+**Paradigm:** Beautiful Documents  
+**Pricing:** Free / Plus $10/mo / Business $20/mo  
+**Languages:** English
+
+Native Apple-first document app with stunning design. Block-based editor, inline images, cards, and page linking. Strong sharing and collaboration. Increasingly adding PKM features like backlinks.
+
+**Strengths:**
+- Gorgeous native UI (Apple Design Award)
+- Block-based editing with rich media
+- Strong sharing and publishing
+- Backlinks and page linking
+- Offline-first with sync
+- Web, Mac, iOS, Windows
+
+**Best for:** Design-conscious Apple users, beautiful document creation, team sharing.  
+**Not for:** Open source advocates, graph-based navigation, budget users.
+
+---
+
+### Bear
+
+**Website:** [bear.app](https://bear.app)  
+**Paradigm:** Apple-First Writing  
+**Pricing:** Free / Pro $2.99/month  
+**Languages:** English, Chinese, Japanese, and more
+
+Beloved Apple-ecosystem writing app. Clean Markdown editor with tagging system. Focus on beautiful writing experience over complex PKM features. Recently added backlinks and wiki links.
+
+**Strengths:**
+- Beautiful, focused writing experience
+- Smart tagging system (nested tags)
+- Apple ecosystem integration (iOS, Mac, Watch)
+- Export to multiple formats
+- Wiki links and backlinks (Bear 2)
+- Affordable Pro pricing
+
+**Best for:** Apple users who write, minimalists, quick note capture in a beautiful environment.  
+**Not for:** Windows/Android users, database features, AI search.
+
+---
+
+### TiddlyWiki
+
+**Website:** [tiddlywiki.com](https://tiddlywiki.com)  
+**Paradigm:** Personal Wiki  
+**Pricing:** Free (BSD)  
+**Languages:** 30+
+
+The original personal wiki — a single HTML file that contains everything. Each "tiddler" is a note card. Quirky, portable, and surprisingly powerful with macros, filters, and plugins. Active since 2004.
+
+**Strengths:**
+- Single HTML file — ultimate portability
+- Rich macro and filter system
+- Plugin ecosystem
+- Works offline in any browser
+- Node.js server version for advanced use
+- Active community for 20+ years
+
+**Best for:** Minimalist hackers, single-file portability fans, wiki-style note systems.  
+**Not for:** Modern UI expectations, mobile apps, collaboration.
 
 ### AppFlowy
 
