@@ -47,6 +47,10 @@ Most "awesome" lists are link dumps. This one is a **curated research document**
 | Open source with no compromises | [Logseq](#logseq), [SiYuan](#siyuan) |
 | Academic research & thesis writing | [NoteRich](#noterich), [Zettlr](#zettlr), [Heptabase](#heptabase) |
 | Budget-friendly (free) | [Logseq](#logseq), [AnyType](#anytype), [SiYuan](#siyuan), [Foam](#foam) |
+| Combine tasks with notes | [Amplenote](#amplenote) |
+| Visual creative brainstorming | [Milanote](#milanote), [Heptabase](#heptabase) |
+| Replace Notion with open source | [AppFlowy](#appflowy), [AFFiNE](#affine), [AnyType](#anytype) |
+| Build a self-hosted knowledge base | [Trilium](#trilium-notes), [AFFiNE](#affine) |
 
 ---
 
@@ -468,7 +472,196 @@ A hierarchical note-taking tool built on top of VSCode. Uses flexible hierarchie
 
 ---
 
+| [Trilium Notes](#trilium-notes) | Hierarchical + Scripting | LLM Chat | ✅ | ✅ AGPL | ✅ | Free |
+| [AFFiNE](#affine) | Docs + Canvas | ✅ Multi | ✅ | ✅ AGPL | ✅ | Free |
+| [AppFlowy](#appflowy) | Block + Database | ✅ AI | ✅ | ✅ AGPL | ✅ | Free |
+| [Supernotes](#supernotes) | Card-Based | ❌ | ✅ | ❌ | Limited | $8/mo |
+| [Amplenote](#amplenote) | Task + Notes | ❌ | ✅ | ❌ | ✅ | $7.99/mo |
+| [Milanote](#milanote) | Visual Board | ❌ | ❌ | ❌ | Limited | $12.50/mo |
+
+---
+
+## Team Knowledge Bases
+
+Tools designed for team collaboration and shared knowledge — not just personal use.
+
+### Outline
+
+**Website:** [getoutline.com](https://getoutline.com)  
+**Paradigm:** Team Wiki + AI  
+**Pricing:** Free (self-hosted) / Cloud from $10/mo  
+**Languages:** 20+
+
+A fast, modern team wiki and knowledge base. Built with React and Node.js. Real-time collaboration, slash commands, nested collections, and markdown support. Claude/MCP AI integration for intelligent search.
+
+**Strengths:**
+- Fast, clean wiki interface
+- Real-time collaborative editing
+- AI-powered search with Claude integration
+- Self-hosted option (open source)
+- Slash command workflow
+- OIDC/SAML SSO support
+
+**Best for:** Teams needing a clean internal wiki, Confluence alternative.  
+**Not for:** Personal PKM, offline-first users, visual thinkers.
+
+---
+
+### Docmost
+
+**Website:** [docmost.com](https://docmost.com)  
+**Paradigm:** Collaborative Documentation  
+**Pricing:** Free (self-hosted) / Cloud available  
+**Languages:** English
+
+A modern collaborative wiki and documentation platform. Lightweight deployment (3 Docker containers). Real-time editing, granular permissions, inline comments, and page history.
+
+**Strengths:**
+- Lightest deployment of any team wiki
+- Real-time collaborative editing
+- Granular permissions and spaces
+- Inline comments and page history
+- Open source core
+
+**Best for:** Small teams wanting a lightweight wiki, documentation-first workflows.  
+**Not for:** Personal PKM, database-heavy workflows.
+
+---
+
+## Additional Tools
+
+More PKM tools worth knowing — each with a unique angle.
+
+### Supernotes
+
+**Website:** [supernotes.app](https://supernotes.app)  
+**Paradigm:** Card-Based Notes  
+**Pricing:** Free (limited) / Pro $8/month  
+**Languages:** English
+
+A different take on notes: notecards instead of documents. Each note is a card with a character limit, encouraging atomic thinking. Cards can be tagged, linked, and organized into hierarchies. Strong collaboration features.
+
+**Strengths:**
+- Unique notecard format enforces conciseness
+- Real-time collaboration on cards
+- Tag-based organization
+- Clean, fast interface
+- Math (LaTeX) and code support
+
+**Best for:** Students reviewing flashcards-style, teams sharing short-form knowledge, Twitter-like note-taking.  
+**Not for:** Long-form writing, file attachments, offline-first.
+
+---
+
+### Amplenote
+
+**Website:** [amplenote.com](https://amplenote.com)  
+**Paradigm:** Task + Notes Fusion  
+**Pricing:** Free / Pro $7.99/month  
+**Languages:** English
+
+Blends note-taking with task management. Notes can contain tasks that appear in a unified task view. Daily "Jots" for quick capture. Rich text editor with Markdown support.
+
+**Strengths:**
+- Unified task + notes workflow
+- Task scoring prioritizes what to work on next
+- Daily Jots for quick capture
+- Web clipper for research
+- Calendar integration
+
+**Best for:** Users who want GTD-style task management inside their notes, project-oriented note-takers.  
+**Not for:** Visual thinkers, AI-first users, users who separate tasks from knowledge.
+
+---
+
+### Milanote
+
+**Website:** [milanote.com](https://milanote.com)  
+**Paradigm:** Visual Mood Board + Notes  
+**Pricing:** Free (limited) / Pro $12.50/month  
+**Languages:** English
+
+A visual tool for organizing creative projects. Think Pinterest meets notes — drag and drop images, links, text, and files onto infinite boards. Used widely by designers, filmmakers, and creative professionals.
+
+**Strengths:**
+- Beautiful visual board interface
+- Drag-and-drop any content type
+- Real-time collaboration
+- Web clipper
+- Mobile app with camera capture
+
+**Best for:** Creative professionals, mood boards, visual project planning, design research.  
+**Not for:** Text-heavy PKM, structured databases, offline use.
+
+---
+
+### Trilium Notes
+
+**Website:** [triliumnotes.org](https://triliumnotes.org) (community fork: [TriliumNext](https://github.com/TriliumNext/Trilium))  
+**Paradigm:** Hierarchical + Programmable  
+**Pricing:** Free (AGPL-3.0)  
+**Languages:** English, German, Spanish, French, Chinese, and more
+
+One of the most powerful open-source PKM tools. Arbitrarily deep tree hierarchy with note cloning. Built-in Excalidraw, mind maps, geo maps, spreadsheets (2026), and OCR. JavaScript scripting for automation. Tested with 100,000+ notes.
+
+**Strengths:**
+- Unlimited hierarchy depth with note cloning
+- Built-in OCR, spreadsheets, Excalidraw, mind maps, geo maps
+- JavaScript scripting for custom automation
+- Self-hosted sync server
+- Per-note encryption
+- Web clipper and REST API
+- LLM chat integration (2026)
+
+**Best for:** Self-hosters, power users who want programmability, large knowledge bases.  
+**Not for:** Users wanting polished mobile apps, real-time collaboration, quick setup.
+
+---
+
+### AFFiNE
+
+**Website:** [affine.pro](https://affine.pro)  
+**Paradigm:** Docs + Infinite Canvas  
+**Pricing:** Free (AGPL-3.0)  
+**Languages:** English, Chinese
+
+An ambitious open-source project combining documents and infinite canvas — think Notion + Miro in one tool. CRDT-based real-time collaboration. Multimodal AI copilot. Pre-1.0 but innovating fast.
+
+**Strengths:**
+- Unique Edgeless mode: switch between document and canvas
+- CRDT-based real-time collaboration
+- Multimodal AI (write, draw, mind-map, present)
+- Self-hostable (3 Docker containers)
+- Backlinks and synced blocks
+
+**Best for:** Visual thinkers who code, early adopters, Notion + Miro combo users.  
+**Not for:** Production-critical work, users who need stability, mobile-first users.
+
+---
+
+### AppFlowy
+
+**Website:** [appflowy.io](https://appflowy.io)  
+**Paradigm:** Open-Source Notion Alternative  
+**Pricing:** Free (AGPL-3.0)  
+**Languages:** English, community translations
+
+The most polished open-source Notion alternative. Built with Flutter + Rust for native performance. Multiple database views (grid, kanban, calendar, gallery). AI meeting transcription. Notion importer.
+
+**Strengths:**
+- Fast native desktop and mobile (Flutter)
+- Multiple database views (table, kanban, calendar, gallery, chart)
+- AI meeting notes with speaker identification
+- Notion import preserving databases
+- Active development with stable releases
+
+**Best for:** Notion users wanting open-source freedom, teams needing databases, meeting-heavy workflows.  
+**Not for:** Visual canvas thinking, graph-based navigation, plain-text purists.
+
+---
+
 ## Methodology & Further Reading
+
 
 ### What is Personal Knowledge Management?
 
